@@ -1,4 +1,4 @@
-package Controller;
+package controller;
 import java.time.Duration;
 
 import org.springframework.http.HttpStatus;
@@ -11,7 +11,7 @@ import com.example.webfluxappmicro.Person;
 import reactor.core.publisher.Flux;
 
 @RestController
-@ResponseStatus(value = HttpStatus.NOT_FOUND)
+//@ResponseStatus(value = HttpStatus.NOT_FOUND)
 //@ComponentScan(basePackages = "com.example.Controller")
 public class PersonController {
 

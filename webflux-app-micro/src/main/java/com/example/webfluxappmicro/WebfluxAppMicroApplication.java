@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import com.example.*;
 
 @SpringBootApplication
-@ResponseStatus(value = HttpStatus.NOT_FOUND)
-@ResponseBody
+//@ResponseStatus(value = HttpStatus.NOT_FOUND)
+//@ResponseBody
 //@ComponentScan({"com.example.Controller", "com.example.service" })
 //@ComponentScan(basePackages = "com.example.Controller")
 public class WebfluxAppMicroApplication {
